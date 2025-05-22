@@ -79,7 +79,7 @@ The RFID tag uses a 256-bit EPC (Electronic Product Code) Type I format, which i
 
 ### 3.1 NTAG213 Memory Layout
 
-![](NTAG213_Memory_layout.png)
+![](images/1.png)
 
 | Memory Area | Address Range | Purpose | Writable |
 |-------------|---------------|----------|-----------|
@@ -210,4 +210,4 @@ Each unique color is assigned a numerical ID for indexing and management:
 | 012 | #44F1FF          | Cyan       | PR            | D          | #44F1FF-PR-D-011      |
 
 ### 7. Operator Panel Color Definition（Screen, Slicing software, Web）
-![](Operator_Panel_Color_Definition.png)
+![](images/2.png)
