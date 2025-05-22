@@ -155,21 +155,24 @@ The RFID tag would be programmed as:
 | 1.0 | 2025-02-10 | Initial release | Yongliang Tan |
 
 
+<br>
+<br>
 
-## 8. Filament Color Encoding Rules
 
-### 8.1 Encoding Rules
+# Filament Color Encoding Rules
+
+### 1. Encoding Rules
 Basic Color Code - Color Category - Brightness Level - Filament ID
 
 
-### 8.2 Basic Color Code
+### 2. Basic Color Code
 The basic color code is a standard way of coding based on the RGB color model, with a total of 6 characters indicating the intensity of red, green, and blue colors (from 00 to FF). For example:
 - #FF0000: Pure red
 - #00FF00: Pure green
 - #0000FF: Pure blue
 
 
-### 8.3 Color Categories
+### 3. Color Categories
 Colors are classified into major categories, each with an abbreviation:
 - PR: Primary Colors (Red, Blue, Yellow, White)
 - SE: Secondary Colors (Green, Orange, Purple)
@@ -179,20 +182,20 @@ Colors are classified into major categories, each with an abbreviation:
 - TR: Transparent Colors (Clear, Translucent)
 
 
-### 8.4 Brightness Levels
+### 4. Brightness Levels
 Each color can be assigned a brightness level:
 - L: Light
 - M: Medium
 - D: Dark
 
 
-### 8.5 Filament ID
+### 5. Filament ID
 Each unique color is assigned a numerical ID for indexing and management:
 - 001, 002, 003 etc.
 
 
 
-### 8.6 Color Code Reference Table
+### 6. Color Code Reference Table
 
 | ID  | Basic Color Code | Color Name | Color Category | Brightness | Full Code             |
 |-----|------------------|------------|---------------|------------|-----------------------|
@@ -206,5 +209,5 @@ Each unique color is assigned a numerical ID for indexing and management:
 | 011 | #FFC800          | Yellow     | PR            | D          | #FFC800-PR-D-011      |
 | 012 | #44F1FF          | Cyan       | PR            | D          | #44F1FF-PR-D-011      |
 
-### 8.7 Operator Panel Color Definition（Screen, Slicing software, Web）
+### 7. Operator Panel Color Definition（Screen, Slicing software, Web）
 ![](Operator_Panel_Color_Definition.png)
