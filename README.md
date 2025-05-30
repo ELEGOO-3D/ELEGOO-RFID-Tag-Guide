@@ -18,7 +18,7 @@ The RFID tag uses a 256-bit EPC (Electronic Product Code) Type I format, which i
 | Color Code | 24 bits | 0xFF3700 | Filament color in RGB888 format |
 | Filament Diameter | 16 bits | 0x00AF (175) | Filament diameter hundredths of a millimeter |
 | Filament Weight | 16 bits | 0x03E8 (1000) | Filament weight in grams |
-| Production Date | 16 bits | 0x09C6 (2502) | Production date encoded as YYYYMM |
+| Production Date | 16 bits | 0x09C6 (2502) | Production date encoded as YYMM |
 | Reserved | 64 bits | 0 | Reserved for future use |
 
 
